@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+  
+        <SwitchPreference
+            android:key="pref_isSound"
+            android:title="Sound"
+            android:summary=""
+            android:defaultValue="true" 
+            />
+          
+        <SwitchPreference
+            android:key="pref_isNext"
+            android:title="Nächstes"
+            android:summary=""
+            android:defaultValue="true" 
+            />
+          
+        <SwitchPreference
+            android:key="pref_isShadow"
+            android:title="Shadow"
+            android:summary=""
+            android:defaultValue="true" 
+            />
+          
+        <SwitchPreference
+            android:key="pref_isDropButton"
+            android:title="Drop Button"
+            android:summary=""
+            android:defaultValue="false" 
+            />
+<!--        
+        <SwitchPreference
+            android:key="pref_isAnimation"
+            android:title="Animation"
+            android:summary=""
+            android:defaultValue="true" 
+            />
+-->          
+        <ListPreference
+            android:key="pref_begLevel"
+            android:title="Anfangslevel"
+            android:summary=""
+            android:entries="@array/beglevelentries"
+            android:entryValues="@array/begLevelValues"
+            android:defaultValue="1" 
+            />
+          
+        <Preference
+            android:key="pref_size"
+            android:title="Größe Tetris-Stein"
+            android:defaultValue="40" 
+            />
+          
+        <Preference
+            android:key="pref_highScore"
+            android:title="Highscore/Top Ten zurücksetzen"
+            android:defaultValue="0" 
+            />
+        
+    
+</PreferenceScreen>

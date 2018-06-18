@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="beglevelentries">
+        <item>1 scheisse langsam</item>
+        <item>2 ...</item>
+        <item>3 langsam</item>
+        <item>4 ...</item>
+        <item>5 schnell...</item>
+        <item>6 ..</item>
+        <item>7 schneller...</item>
+        <item>8 ...</item>
+        <item>9 scheisse schnell...</item>
+        </string-array>
+    <string-array name="begLevelValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        </string-array>
+
+</resources>

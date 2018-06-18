@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="de.floresse.gloris.StartActivity" 
+    >
+
+    <item
+        android:id="@+id/action_pause"
+ 		android:icon="@drawable/av_pause"
+        android:title="@string/action_pause"
+        android:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/action_play"
+ 		android:icon="@drawable/av_play"
+        android:title="@string/action_play"
+        android:showAsAction="always"/>
+
+</menu>
